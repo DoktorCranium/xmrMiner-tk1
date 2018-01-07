@@ -44,15 +44,17 @@ Tegra_Linux_Sample-Root-Filesystem_R21.6.0_armhf.tar
 # Install
 
 1. create and enter the project folder:
-  - mkdir -p xmrMiner-tk1
-  - cd xmrMiner-tk1
+  - `mkdir -p xmrMiner`
+  - `cd xmrMiner`
 2. download the xmrMiner-tk1 source code
-  - git clone ....
+  - `git clone ....`
 4. configure xmrMiner (search for all dependencies) 
-  - cmake -DCUDA_ARCH=32 . 
+  - `cmake -DCUDA_ARCH=32 . `
 5. compile
-  - make -j 
+  - `make -j` 
 6. start xmrMiner
   - `./xmrMiner`
   - `./xmrMiner --help`
+7. example usage 
+   - ` ./xmrMiner --launch=12x16  -o stratum+tcp://xmr.somepool.com:4444  -u walletid-hash -p x -k`
 
