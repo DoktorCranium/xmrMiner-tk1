@@ -9,7 +9,7 @@ It modifed to work on the Nvidia Jetson TK1 and was done only for educational pu
 
 gpu | launch param | xmrMiner [hash/s] | KlausT ccminer [hash/s] | speedup [%] | clock [MHz] | watt
 :---|:------------:|:------------------|:------------------------|:------------|:------------|----
-Nvidia Tegra TK1 | 12x16 | 15 |  |   | 
+Nvidia Tegra TK1 | 12x16 | 15 |  |  |756-951 MHz |8 W | 
 
 
 # Requirements
